@@ -14,3 +14,16 @@ def evenOdd(num):
         print(num,"is odd no")
     
 evenOdd(55225479)
+
+# for loop as list iterator
+def list_iterator(list_name):
+    for i in a:
+        print(i)
+
+
+a = []
+a.append(5)
+a.append(67)
+list_iterator(a)
+    
+
