@@ -26,4 +26,25 @@ a.append(5)
 a.append(67)
 list_iterator(a)
     
+# stack
 
+list = []
+
+def push(list_name):
+    list_name.append(45)
+    list_name.append(34)
+    
+def delete(list_name):
+    print("item deleted is",list_name.pop())
+
+def display(list_name):
+    for item in list_name:
+        print(item)
+    
+def top(list_name):
+    print("Top item is ",list_name[len(list_name)-1])
+    
+push(list)
+display(list)
+top(list)
+delete(list)
