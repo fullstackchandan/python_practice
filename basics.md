@@ -48,3 +48,21 @@ push(list)
 display(list)
 top(list)
 delete(list)
+
+#OOPS in python
+class Bike:
+    name = ""
+    gear = 0
+    
+    def features():
+        main = "track ready"
+        wheels = "bridgestone"
+
+# create object of class
+bike1 = Bike()
+bike1.name = "rajdoot"
+bike1.gear = 4
+
+print(f"Name: {bike1.name}, Gears: {bike1.gear}")
+print(f"Bike is: {bike1.features().main} and having all weather {bike1.features().wheels} installed")
+# error correction required
